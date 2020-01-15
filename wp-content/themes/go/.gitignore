@@ -1,0 +1,48 @@
+node_modules
+bower_components
+build
+release
+vendor
+temp
+.idea
+.vscode
+
+# Project Files
+dist
+!.dev
+!.dev/assets/shared/js/frontend/vendor/
+*.mo
+!.dev/tests/php/assets/*.mo
+
+# Include
+!.babelrc
+!.browserslistrc
+!.circleci
+!.codeclimate.yml
+!.distignore
+!.editorconfig
+!.eslintignore
+!.eslintrc.js
+!.npmrc
+!.nprc
+!.stylelintrc
+
+# Editors
+*.esproj
+*.tmproj
+*.tmproject
+tmtags
+.*.sw[a-z]
+*.un~
+Session.vim
+*.swp
+
+# Mac OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
